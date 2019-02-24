@@ -1,5 +1,9 @@
 package co.com.homework.calculadora.calculadora;
 
+/**
+ * @author Kenner QM
+ */
+
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
