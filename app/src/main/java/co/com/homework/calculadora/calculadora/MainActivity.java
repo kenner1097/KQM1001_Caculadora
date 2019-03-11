@@ -1,5 +1,9 @@
 package co.com.homework.calculadora.calculadora;
 
+/**
+ * @author Kenner QM
+ */
+
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -230,7 +234,7 @@ public class MainActivity extends AppCompatActivity {
 
                 case 7: // logaritmmonatural
                     try {
-                        double ln = Math.log(Double.parseDouble(_edit.getText().toString()));
+                        double ln = Math.log10(Double.parseDouble(_edit.getText().toString()));
                         _edit.setText(valueOf(ln));
                     } catch (Exception e){
                         _edit.setTextColor(Color.RED);
