@@ -24,3 +24,5 @@ public class ExampleInstrumentedTest {
         assertEquals("co.com.homework.calculadora.calculadora", appContext.getPackageName());
     }
 }
+
+
